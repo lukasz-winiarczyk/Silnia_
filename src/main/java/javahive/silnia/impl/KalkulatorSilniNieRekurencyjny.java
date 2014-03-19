@@ -1,7 +1,6 @@
 package javahive.silnia.impl;
 
 import java.math.BigDecimal;
-
 import javahive.silnia.KalkulatorSilni;
 
 /**
@@ -10,7 +9,7 @@ import javahive.silnia.KalkulatorSilni;
  */
 public class KalkulatorSilniNieRekurencyjny implements KalkulatorSilni {
 
-    public BigDecimal liczB(int podstawa) {
+    private BigDecimal liczB(int podstawa) {
         if (podstawa < 0) {
             throw new ArithmeticException("Nie mozna obliczyc silni z liczby ujemnej");
         }

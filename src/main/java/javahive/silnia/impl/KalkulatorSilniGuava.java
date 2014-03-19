@@ -1,12 +1,13 @@
 package javahive.silnia.impl;
 
 import javahive.silnia.KalkulatorSilni;
-import com.google.common.math.*;
+import com.google.common.math.LongMath;
+import com.google.common.math.BigIntegerMath;
 
 
 /**
  *
- * @author mgr
+ * @author Lukasz Winiarczyk
  */
 public class KalkulatorSilniGuava implements KalkulatorSilni{
 	

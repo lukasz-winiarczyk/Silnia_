@@ -4,7 +4,6 @@ package javahive.silnia.impl;
 import java.math.BigDecimal;
 
 import javahive.silnia.KalkulatorSilni;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 /**
  *
@@ -17,7 +16,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class KalkulatorSilniBigDecimal implements KalkulatorSilni{
 	
-	public BigDecimal liczBigDec(int arg){
+	private BigDecimal liczBigDec(int arg){
 		if(arg<0){
         	throw new ArithmeticException("Nie mozna obliczyc silni z liczby ujemnej");
         }
