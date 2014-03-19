@@ -10,7 +10,7 @@ import com.google.common.math.*;
  */
 public class KalkulatorSilniGuava implements KalkulatorSilni{
 	
-	private static int MAKSYMALNY_ARGUMENT_DLA_LONG=12;
+	private static final int MAKSYMALNY_ARGUMENT_DLA_LONG=12;
 	
     public String licz(int arg) {
     	if(arg>MAKSYMALNY_ARGUMENT_DLA_LONG){

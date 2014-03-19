@@ -12,7 +12,7 @@ public class KalkulatorSilniNieRekurencyjny implements KalkulatorSilni {
 
     public BigDecimal liczB(int podstawa) {
         if (podstawa < 0) {
-            throw new ArithmeticException("podstawa silni nie może być mniejsza od zera");
+            throw new ArithmeticException("Nie mozna obliczyc silni z liczby ujemnej");
         }
         BigDecimal wynik = new BigDecimal(1);
         if (podstawa > 0) {
