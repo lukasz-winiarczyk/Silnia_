@@ -3,11 +3,13 @@
  * and open the template in the editor.
  */
 package javahive.silnia;
+
 /**
  * nowa uwaga - test gita
+ * 
  * @author Marcin Grabowiecki
  */
 
-public interface KalkulatorSilni {
+public interface KalkulatorSilni{
     String licz(int arg);
 }
